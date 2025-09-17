@@ -1,159 +1,53 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>zadanie13</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2a1683;
+}
+.box {
+    background: #ffc9e4;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background: #c0548a;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    
+}
+.button:hover {
+    background: #852454;
+}
 
+table {margin: 20px;
+    
+}
 
-	<body>
-		
-	<div class="box">
+td {
+    border: 1px;
+    color: #9c0082;
+    padding: 8px 12px;
+    text-align: center;
+}
 
-		<table>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-			</tr>
-			<tr>
-				<th>2</th>
-				<td>a</td>
-				<td class="color">b</td>
-				<td class="color">c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-			<tr>
-				<th>3</th>
-				<td>f</td>
-				<td>g</td>
-				<td>h</td>
-				<td>i</td>
-				<td class="color">j</td>
-			</tr>
-			<tr>
-				<th>4</th>
-				<td>k</td>
-				<td>l</td>
-				<td>m</td>
-				<td>n</td>
-				<td class="color">o</td>
-			</tr>
-			<tr>
-				<th>5</th>
-				<td class="color">p</td>
-				<td class="color">q</td>
-				<td class="color">r</td>
-				<td>s</td>
-				<td>t</td>
-			</tr>
-			<tr>
-				<th>6</th>
-				<td class="color">u</td>
-				<td class="color">v</td>
-				<td class="color">w</td>
-				<td>y</td>
-				<td>z</td>
-			</tr>
-		</table>
-		<table>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-			</tr>
-			<tr>
-				<th>2</th>
-				<td>a</td>
-				<td class="color" colspan="2">b,c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-			<tr>
-				<th>3</th>
-				<td>f</td>
-				<td>g</td>
-				<td>h</td>
-				<td>i</td>
-				<td class="color" rowspan="2">j, o</td>
-			</tr>
-			<tr>
-				<th>4</th>
-				<td>k</td>
-				<td>l</td>
-				<td>m</td>
-				<td>n</td>
-			</tr>
-			<tr>
-				<th>5</th>
-				<td class="color" colspan="3" rowspan="2">
-					p,q,r,u,v,w
-				</td>
-				<td>s</td>
-				<td>t</td>
-			</tr>
-			<tr>
-				<th>6</th>
-				<td>y</td>
-				<td>z</td>
-			</tr>
-		</table>
-		<table>
-			<tr>
-				<th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>5</th>
-				<th>6</th>
-			</tr>
-			<tr>
-				<th>2</th>
-				<td>a</td>
-				<td class="color">b</td>
-				<td class="color">c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-			<tr>
-				<th>3</th>
-				<td>f</td>
-				<td>g</td>
-				<td>h</td>
-				<td>i</td>
-				<td class="color">j</td>
-			</tr>
-			<tr>
-				<th>4</th>
-				<td>k</td>
-				<td>l</td>
-				<td>m</td>
-				<td>n</td>
-				<td class="color">o</td>
-			</tr>
-			<tr>
-				<th>5</th>
-				<td>p</td>
-				<td>q</td>
-				<td class="color" rowspan="2" colspan="2">r,s,w,y</td>
-				<td>t</td>
-			</tr>
-			<tr>
-				<th>6</th>
-				<td>u</td>
-				<td>v</td>
-				<td>z</td>
-			</tr>
-		</table>
-		</div>
-	</body>
-</html>
+th {
+    background-color: #8445d6;
+}
+color {color: #6600ff }
